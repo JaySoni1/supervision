@@ -13,6 +13,28 @@
 
 
 </div>
+Project Overview
+Supervision is a comprehensive toolkit designed to streamline computer vision workflows. It provides a unified and model-agnostic interface for working with various computer vision tasks including object detection, classification, and segmentation.
+
+What is Supervision?
+Supervision abstracts away the complexity of common computer vision operations, allowing developers and researchers to focus on building applications rather than dealing with boilerplate code. Whether you're prototyping a solution or deploying to production, Supervision offers tools that make your workflow more efficient.
+Key Features:-
+
+1) Model Agnostic: Compatible with popular frameworks like YOLOv8, TensorFlow, PyTorch, and more.
+2) Visualizers and Annotators: Easy-to-use tools for visualizing detections, segmentations, and tracking results.
+3) Dataset Management: Tools for loading, converting, and manipulating datasets across multiple formats (COCO, YOLO, Pascal VOC).
+4) Zone Analytics: Monitor and analyze object movement through defined zones.
+5) Video Processing: Utilities for processing video streams and files with CV models.
+6) Performance Metrics: Tools to evaluate model performance with common metrics.
+7) Tracking Integration: Built-in support for various tracking algorithms and visualization.
+
+Core Technologies:-
+
+1) Python 3.8+
+2) OpenCV
+3) NumPy
+4) PyYAML
+5) Shapely
 
 ## 👋 hello
 
