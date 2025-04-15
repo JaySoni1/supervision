@@ -26,6 +26,37 @@ Pip install the supervision package in a
 ```bash
 pip install supervision
 ```
+## Automatic Setup
+
+1) Make sure you have Python 3.6+ installed.
+2) Clone this repository: git clone https://github.com/yourusername/supervision.git.
+3) Navigate to the project directory: cd supervision.
+4) Run the setup script: pip install -e .
+
+This will automatically install all required dependencies.
+## Testing Environment
+For running tests, you can use either of these testing environments:
+Option 1: test_env
+
+1) Create a test environment: python -m venv test_env.
+2) Activate the test environment:
+
+For Windows: test_env\Scripts\activate
+For macOS/Linux: source test_env/bin/activate
+
+3) Install dependencies: pip install -e .
+4) Run tests: python test.py.
+
+Option 2: venv_test
+
+1) Create a test environment: python -m venv venv_test.
+2) Activate the test environment:
+
+For Windows: venv_test\Scripts\activate
+For macOS/Linux: source venv_test/bin/activate
+
+4) Install dependencies: pip install -e .
+5) Run tests: python test.py.
 
 Read more about conda, mamba, and installing from source in our [guide](https://roboflow.github.io/supervision/).
 
